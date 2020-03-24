@@ -1,3 +1,5 @@
+package main.java.list_messages;
+
 import com.vailsys.freeclimb.api.FreeClimbClient;
 import com.vailsys.freeclimb.api.FreeClimbException;
 import com.vailsys.freeclimb.api.message.MessageList;
