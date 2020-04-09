@@ -30,7 +30,7 @@ targetCompatibility = 1.8
 
 dependencies {
     testImplementation "junit:junit"
-    implementation 'com.github.FreeClimbAPI:java-sdk:2.0.0'
+    implementation 'com.github.FreeClimbAPI:java-sdk:3.0.0'
 }
 
 sourceSets {
