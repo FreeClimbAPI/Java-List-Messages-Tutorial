@@ -12,9 +12,9 @@ public class Application {
     FreeClimbClient client;
     MessageList messageList;
     String accountId = System.getenv("ACCOUNT_ID");
-    String authToken = System.getenv("AUTH_TOKEN");
+    String apiKey = System.getenv("API_KEY");
     try {
-      client = new FreeClimbClient(accountId, authToken); // Create FreeClimbClient object
+      client = new FreeClimbClient(accountId, apiKey); // Create FreeClimbClient object
       messageList = client.messages.get();
 
       // Don't bother trying to grab more pages if there is only one or zero
